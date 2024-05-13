@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color--general: #3671BF;
+    --seleccion--item: #A9D943;
+    --color--texto: #1d1d1d;
+    --color--dato: #005df4;
+    --border--color: #27538C;
+    --seccion--secundaria:#F2F2F2;
+}
+
+body{
+    background-color: var(--color--general);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--seccion--secundaria);
+    font-size: 42px;
+    margin-bottom: 22px;
+}
+
+.formulario{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: var(--border--color);
+    color: var(--seccion--secundaria);
+}
+
+
+.formulario__envio{
+    font-size: 40px;
+}
+
+.campo__escrita {
+    width: 50vw;
+    border-radius: 24px;
+    display: block;
+    color: black;
+    padding: 1em
+}
+
+.textarea{
+    display: flex;
+    border-radius: 23px;
+    border: solid 2px var(--color--texto);
+    width: 656px;
+    font-size: 40px;
+}
+
+.enviar__mail{
+    padding: 1em 3em;
+    margin: 2em 0;
+    border-radius: 24px;
+    color: #ffffff;
+    background-color: var(--seleccion--item);
+}
